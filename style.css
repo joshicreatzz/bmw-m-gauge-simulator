@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+.gauge-container {
+  position: relative;
+  width: 600px;
+  margin: 50px auto;
+}
+.gauge-bg {
+  width: 100%;
+}
+.needle {
+  position: absolute;
+  width: 4px;
+  height: 150px;
+  background: red;
+  top: 50px;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+}
+.gear {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+.rpm-readout {
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tag {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}

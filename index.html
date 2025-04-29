@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BMW M RPM Gauge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="gauge-container">
+    <img src="gauge.svg" alt="RPM Gauge" class="gauge-bg">
+    <div class="needle" id="needle"></div>
+    <div class="gear" id="gear">N</div>
+    <div class="rpm-readout" id="rpm">0 RPM</div>
+    <div class="tag">joshicreatzz</div>
+  </div>
+  <audio id="rev-sound" src="rev.mp3" preload="auto"></audio>
+  <audio id="shift-sound" src="shift.mp3" preload="auto"></audio>
+  <audio id="idle-sound" src="idle.mp3" preload="auto" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
